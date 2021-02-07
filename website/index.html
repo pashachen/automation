@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<script>
+		function myFunc() {
+			result = prompt("PROMPT");
+			alert(result);
+		}
+	</script>
+
+<div id="mainContainer">
+
+		<div id="buttons">
+		<button>
+			<a id="a" onclick="alert('Hello!')" href="#">Link 1</a>
+		</button>
+
+		<button>
+		<a id="b" onclick="myFunc()" href="#">Link 2</a>
+		</button>
+
+		<button>
+		<a id="c" onclick="confirm('Hello!I am confirm')" href="#">Link 3</a>
+		</button>
+	</div>
+
+	<div id="description">
+		<p>simple alert with some text</p>
+		<p>prompt with text input</p>
+		<p>confirm button</p>
+	</div>
+</div>
+
+</body>
+</html>
