@@ -1,5 +1,9 @@
 
+#mainContainer{
+    justify-content: space-between;
+    height: 200px;
 
+}
 #buttons {
     height: 200px;;
     float: left;
@@ -21,4 +25,15 @@ button {
     height:40px;
     width: 50px;
     display: flex;
+}
+
+.input {
+    width: 360px;
+}
+
+button#forInput {
+    margin-top: 10px;
+    float:right;
+    height: fit-content;
+    width: fit-content;
 }
